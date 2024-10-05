@@ -124,7 +124,7 @@ float mayor_nota(Estudiante *cabeza)
 
 float menor_nota(Estudiante *cabeza)
 {
-    float menor = _DBL_HAS_INFINITY_;
+    float menor = FLT_MAX;
     Estudiante *actual = cabeza;
     while (actual != NULL)
     {
